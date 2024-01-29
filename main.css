@@ -17,11 +17,17 @@ html{
 
     grid-template-rows: repeat(auto-fit, minmax(100px, 1fr));
     grid-template-columns: 1fr 1fr 1fr;
-
-    margin-top: 5em;
     justify-items: center;
+}
+
+.container-homepage{
+    margin-top: 5em;
     align-items: center;
     height: 100vh;
+}
+
+.container-results{
+    margin-top: 2em;
 
 }
 
@@ -101,4 +107,28 @@ html{
   color: #999999;
   font-size: 1.2rem;
   font-weight: 600;
+}
+
+/* Rsults Page Styles */
+.results-posts-wrapper {
+    grid-row: 3;
+    grid-column: 1/-1;
+    width: 66vw;
+}
+
+.post{
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+.category-name{
+    color: #2660f3;
+    margin-bottom: 1.5rem;
+    font-size: 1.4rem;
+}
+
+.result-post-title a{
+    color: #535353;
+    text-decoration: none;
+    font-size: 1.8rem;
 }
